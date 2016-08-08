@@ -1,6 +1,6 @@
 {
   "name": "iterm2-clear-scrollback",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Clears iTerm2 scroll back history.",
   "main": "lib/iterm2-clear-scrollback.js",
   "files": [
