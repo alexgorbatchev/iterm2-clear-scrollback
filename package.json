@@ -1,0 +1,29 @@
+{
+  "name": "iterm2-clear-scrollback",
+  "version": "0.0.0",
+  "description": "Clears iTerm2 scroll back history.",
+  "main": "lib/iterm2-clear-scrollback.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "prepublish": "babel *.js --out-dir ./lib --source-maps"
+  },
+  "keywords": [
+    "iterm2",
+    "console",
+    "clear",
+    "scrollback",
+    "history",
+    "terminal"
+  ],
+  "author": {
+    "name": "Alex Gorbatchev",
+    "url": "https://github.com/alexgorbatchev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexgorbatchev/iterm2-clear-scrollback"
+  },
+  "license": "ISC"
+}
