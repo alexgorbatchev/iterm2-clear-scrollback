@@ -4,10 +4,11 @@
   "description": "Clears iTerm2 scroll back history.",
   "main": "lib/iterm2-clear-scrollback.js",
   "files": [
-    "lib"
+    "lib",
+    "auto.js"
   ],
   "scripts": {
-    "prepublish": "babel *.js --out-dir ./lib --source-maps"
+    "prepublish": "babel iterm2-clear-scrollback.js --out-dir ./lib --source-maps"
   },
   "keywords": [
     "iterm2",
